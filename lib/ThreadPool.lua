@@ -4,7 +4,7 @@
     Thread Pool     1.0.0-beta
     A library for creating Thread Pools to improve performance and reduce latency.
 
-    https://github.com/Clownxz/ThreadPool
+    https://clownxz.github.io/ThreadPool/
 ]]
 
 --[=[

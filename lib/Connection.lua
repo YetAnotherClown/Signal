@@ -4,7 +4,7 @@
     Connection     1.0.0-beta
     A Typed Connection Implementation similar to RBXScriptConnection.
 
-    https://github.com/Clownxz/Signal/tree/main/lib/Connection
+    https://github.com/Clownxz/Signal/blob/master/lib/Connection.lua
 ]]
 
 --[=[

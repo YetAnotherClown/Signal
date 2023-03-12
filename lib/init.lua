@@ -4,7 +4,7 @@
     Signal     1.0.0-beta
     A Typed Signal Implementation similar to RBXScriptSignal with Performance in mind.
 
-    https://github.com/Clownxz/Signal
+    https://clownxz.github.io/Signal/
 ]]
 
 local Connection = require(script.Connection)
