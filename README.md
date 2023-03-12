@@ -2,7 +2,7 @@
 
 <a href="http://clownxz.github.io/signal"><strong>View docs</strong></a>
 
-A typed implementation of Roblox's RBXScriptSignal based on Stravant's Goodsignal, designed to replicate the behavior of [`RBXScriptSignal`](https://create.roblox.com/docs/reference/engine/datatypes/RBXScriptSignal).
+A Typed Signal Implementation similar to [`RBXScriptSignal`](https://create.roblox.com/docs/reference/engine/datatypes/RBXScriptSignal) with Performance in mind
 
 ---
     
