@@ -16,21 +16,27 @@ export type ThreadPool = ThreadPool.ThreadPool
 --[=[
     @class Signal
 
-    A typed implementation of Roblox's RBXScriptSignal based on Stravant's Goodsignal, designed to replicate the behavior of [`RBXScriptSignal`](https://create.roblox.com/docs/reference/engine/datatypes/RBXScriptSignal).
+    A Typed Signal Implementation similar to [`RBXScriptSignal`](https://create.roblox.com/docs/reference/engine/datatypes/RBXScriptSignal) with Performance in mind.
     
     **Usage**
     
     ```lua
-    	local Signal = require(path.to.module)
-    	
-    	local mySignal = Signal.new()
-    	mySignal:connect(function(...)
-    		print(...)
-    	end)
-    	
-    	mySignal:fire("Hello, world!")
-    	-- Prints "Hello, world!""
-    ```
+    local Signal = require(path.to.module)
+    
+    local mySignal = Signal.new()
+    local myConnection = mySignal:connect(function(...)
+        print(...)
+    end)
+    
+    mySignal:fire("Hello, world!")
+    -- Prints "Hello, world!"
+
+    -- Always disconnect your Connections!
+    myConnection:disconnect()
+
+    -- Or to disconnect all:
+    mySignal:disconnectAll()
+	```
 ]=]
 local Signal = {}
 Signal.__index = Signal
@@ -39,7 +45,7 @@ Signal.__index = Signal
 	@method connect
 	@within Signal
 	
-	Creates a Connection with a Signal. When the Signal is fired with `Signal:fire(...)`, the Connection will run the supplied function.
+	Creates a Connection with a Signal. When the Signal is fired with `Signal:fire(...: T...)`, the Connection will run the supplied function.
 	
 	@param callback (T...) -> nil
 	
@@ -144,7 +150,7 @@ end
 	@within Signal
 	@yields
 	
-	Yields the current thread until the Signal is fired upon with `Signal:fire(...)`, returning the parameters given in the `fire` method.
+	Yields the current thread until the Signal is fired upon with `Signal:fire(...: T...)`, returning the parameters given in the `fire` method.
 	
 	```lua
 		-- Yields the thread until the Signal is fired upon.
