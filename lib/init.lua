@@ -1,7 +1,7 @@
 --!strict
 
 --[[
-    Signal     1.0.0-beta
+    Signal     1.0.0-beta2
     A Typed Signal Implementation similar to RBXScriptSignal with Performance in mind.
 
     https://clownxz.github.io/Signal/
