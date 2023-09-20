@@ -1,6 +1,6 @@
 # Signal
 
-<a href="https://clownxz.github.io/Signal/"><strong>View docs</strong></a>
+<a href="https://yetanotherclown.github.io/Signal/"><strong>View docs</strong></a>
 
 A Typed Signal Implementation similar to [`RBXScriptSignal`](https://create.roblox.com/docs/reference/engine/datatypes/RBXScriptSignal) with Performance in mind.
 

@@ -4,7 +4,7 @@
     Signal     1.0.0-beta2
     A Typed Signal Implementation similar to RBXScriptSignal with Performance in mind.
 
-    https://clownxz.github.io/Signal/
+    https://yetanotherclown.github.io/Signal/
 ]]
 local Packages = script.Parent
 

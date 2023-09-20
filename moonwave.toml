@@ -14,7 +14,7 @@ position = "right"
 
 [footer]
 style = "dark"
-copyright = "Copyright © 2023 Clownxz. Built with Moonwave and Docusaurus"
+copyright = "Copyright © 2023 YetAnotherClown. Built with Moonwave and Docusaurus"
 
 [[footer.links]]
 title = "Links"
@@ -24,5 +24,5 @@ label = "Clown's Circus Discord"
 href = "https://discord.gg/gMWmuaZEY6"
 
 [[footer.links.items]]
-label = "Clownxz on Github"
-href = "https://github.com/Clownxz"
+label = "YetAnotherClown on Github"
+href = "https://github.com/YetAnotherClown"
