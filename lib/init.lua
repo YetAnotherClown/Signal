@@ -1,7 +1,7 @@
 --!strict
 
 --[[
-    Signal     1.0.0-beta2
+    Signal     1.0.0
     A Typed Signal Implementation similar to [`RBXScriptSignal`](https://create.roblox.com/docs/reference/engine/datatypes/RBXScriptSignal) with camelCasing & thread-pooling.
 
     https://yetanotherclown.github.io/Signal/

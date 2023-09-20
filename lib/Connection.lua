@@ -1,7 +1,7 @@
 --!strict
 
 --[[
-    Connection     1.0.0-beta
+    Connection     1.0.0
     A Typed Connection Implementation similar to RBXScriptConnection.
 
     https://github.com/YetAnotherClown/Signal/blob/master/lib/Connection.lua
