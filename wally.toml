@@ -1,0 +1,13 @@
+[package]
+name = "yetanotherclown/signal"
+description = "A Typed Signal Implementation similar to RBXScriptSignal with camelCasing & thread-pooling."
+version = "1.0.0"
+license = "MIT"
+authors = ["YetAnotherClown"]
+realm = "shared"
+registry = "https://github.com/UpliftGames/wally-index"
+exclude = ["**"]
+include = ["lib", "lib/*", "default.project.json", "wally.toml", "wally.lock"]
+
+[dependencies]
+ThreadPool = "yetanotherclown/threadpool@1.0.0"

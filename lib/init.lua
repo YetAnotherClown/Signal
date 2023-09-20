@@ -6,12 +6,13 @@
 
     https://clownxz.github.io/Signal/
 ]]
+local Packages = script.Parent
+
+local ThreadPool = require(Packages.ThreadPool)
+type ThreadPool = ThreadPool.ThreadPool
 
 local Connection = require(script.Connection)
-local ThreadPool = require(script.ThreadPool)
-
 export type Connection = Connection.Connection
-export type ThreadPool = ThreadPool.ThreadPool
 
 --[=[
     @class Signal
