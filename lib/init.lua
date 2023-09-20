@@ -2,10 +2,11 @@
 
 --[[
     Signal     1.0.0-beta2
-    A Typed Signal Implementation similar to RBXScriptSignal with Performance in mind.
+    A Typed Signal Implementation similar to [`RBXScriptSignal`](https://create.roblox.com/docs/reference/engine/datatypes/RBXScriptSignal) with camelCasing & thread-pooling.
 
     https://yetanotherclown.github.io/Signal/
 ]]
+
 local Packages = script.Parent
 
 local ThreadPool = require(Packages.ThreadPool)
@@ -17,7 +18,7 @@ export type Connection = Connection.Connection
 --[=[
     @class Signal
 
-    A Typed Signal Implementation similar to [`RBXScriptSignal`](https://create.roblox.com/docs/reference/engine/datatypes/RBXScriptSignal) with Performance in mind.
+    A Typed Signal Implementation similar to [`RBXScriptSignal`](https://create.roblox.com/docs/reference/engine/datatypes/RBXScriptSignal) with camelCasing & thread-pooling.
     
     **Usage**
     
@@ -63,7 +64,7 @@ end
 	@method connectParallel
 	@within Signal
 	
-	Creates a Connection with a Signal. When the Signal is fired with `Signal:fire(...: T...)`, the Connection will run the supplied function in a desyncronized state.
+	Creates a Connection with a Signal. When the Signal is fired with `Signal:fire(...: T...)`, the Connection will run the supplied function in a desynchronized state.
 	
 	:::note
 	The Script calling this Method must be rooted under an [**Actor**](https://create.roblox.com/docs/reference/engine/classes/Actor).
