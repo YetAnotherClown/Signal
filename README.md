@@ -13,7 +13,7 @@ A Typed Signal Implementation similar to [`RBXScriptSignal`](https://create.robl
     
 #### Usage
 ```lua
-    local Signal = require("signal.luau)
+    local Signal = require("signal.lua")
     
     local mySignal = Signal.new()
     local myConnection = mySignal:connect(function(...)
